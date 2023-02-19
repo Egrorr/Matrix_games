@@ -1,10 +1,11 @@
 # Matrix_games
 Micropython, esp8266 and ws2812b 16x16 matrix... What can go wrong?
-
-
+\
+\
+\
 .mpy files these are the files converted by the mpy-cross tool to bytecode 
 
-/// mpy-cross -march=<architecture> -X emit=bytecode <file> /// 
+/// mpy-cross -march={arch} -X emit={bytecode, native, viper} {file} /// 
   
 for esp8266 architecture = xtensa, for esp32 = xtensawin 
   
